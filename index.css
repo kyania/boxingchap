@@ -1,0 +1,436 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.container{
+    width: 80%;
+    max-width: 900px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+div.top-section{
+    background: url(triangle2white.svg) no-repeat center bottom/100%,url(Boy\ fight.jpg)no-repeat right/75% 100%, linear-gradient(to right, rgb(0, 0, 0), rgba(89, 89, 89, 0.95));
+    margin-top: 0;
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+.top-section h1{
+    color: white;
+    font-size: 44px;
+    position: relative;
+    left: 30px;
+    top: 10%;
+}
+.top-section h1 span{
+    color: rgb(168, 22, 22);
+    
+}
+div.header{
+    position: relative;
+    margin-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+
+div.logo{width: 30%;
+font-size: 30px;
+margin-right: 10px;}
+
+div.logo h1{
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px 2px;
+    color: rgb(255, 255, 255);
+
+}
+
+
+.header-items{
+    margin-right: 30px;
+    
+    
+}
+
+
+
+
+.header-items li{
+    font-size: 13px;
+    background-color: none;
+    outline: none;
+    display: inline-flex;
+    color: white;
+    font-weight: bold;
+   margin-right: 20px;
+    
+    
+}
+.header-items li:hover{
+    cursor: pointer;
+    
+    
+}
+
+.header-items li:last-child{
+    font-size: 13px;
+    border-radius: 2px;;
+    background-color:  rgb(230, 39, 39);
+  padding: 5px 20px;
+    
+    
+}
+
+
+.header-items li:last-child:hover{
+    color:rgb(209, 13, 13);
+    cursor: pointer;
+    border: solid 1px rgb(209, 13, 13);
+    background-color: white;
+    
+}
+
+.white-section{
+    vertical-align: top;
+    overflow: auto;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+.col40{
+width: 40%;
+display: inline-block;
+}
+.col40 img{
+    width: 90%;
+    
+margin-left: 30px;
+
+}
+
+.col60{
+    width: 55%;
+     float: right;
+     margin-left: 5px;
+    text-align: left;
+     font-size: 18px;
+
+}
+
+.col60 h1{
+    padding: 0px 10px;
+    font-size: 20px;
+    padding-right: 34px;
+    margin-bottom:  0;
+    margin-top: 0px;
+}
+
+.col60 p{
+    padding-top: 5px;
+    padding-left: 0px;
+    font-size: 16px;
+    padding-right: 40px;
+    color: rgb(73, 69, 69);
+    margin-top: 2px;
+}
+.col60 button{
+background-color: rgb(235, 57, 45);
+color: white;
+font-weight: bold;
+border: none;
+padding: 10px 30px;
+margin-top: auto;
+}
+div.text-with-verticle-line{
+    border-left: solid 4px red;
+}
+
+
+
+.bottom{
+    background-color: black;
+    position: relative;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.links{width: 90%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.links h1{color: rgb(231, 216, 216);
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 30px;
+
+}
+
+.links h1 span{color: rgb(224, 30, 30);
+
+}
+div.icons{
+    display: inline-block;
+    
+    margin-top: 25px;
+    margin-right: 40px;
+
+}
+
+
+div.icons i{
+    color: aliceblue;
+    margin-top: 30px;
+    margin-right: 20px;
+
+}
+
+
+div.info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-bottom: 25px;
+}
+div.left{
+    color: rgb(231, 216, 216);
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+div.left i{
+    
+    display: inline-block;
+}
+
+
+div.left p{
+    
+    display: inline-block;
+}
+
+
+div.right{
+    color: rgb(231, 216, 216);
+    margin-right: 40px;
+    font-size: 14px;
+}
+
+div.right p{display: inline-block;
+}
+
+
+div.right p:first-child{margin-right: 20px;
+}
+
+
+
+.float-section{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 50%;
+    margin-left: -200px;
+    bottom:-40px;
+    width: 450px;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+
+ }
+.float-items{
+    font-size: 12px;
+    display: inline-block;
+    margin-right: 20px;
+    align-items: center;
+    margin-left: 20px;
+}
+.float-items img{
+    margin-left:30px;
+    margin-top: 15px;
+}
+
+
+.float-items p{
+    color:rgb(209, 13, 13);
+    margin: 0;
+    font-weight: bold;
+    padding-left: 20px;
+
+}
+
+
+.float-items:first-child p{
+    color:rgb(209, 13, 13);
+    margin: 0;
+    font-weight: bold;
+    padding-left: 0px;
+
+}
+
+.float-items:last-child p{
+    color:rgb(209, 13, 13);
+    margin: 0;
+    font-weight: bold;
+    padding-left: 0px;
+
+}
+
+button:hover{
+    color:rgb(209, 13, 13);
+    cursor: pointer;
+    border: solid 1px rgb(209, 13, 13);
+    background-color: white;
+
+}
+
+@media only screen and (max-width: 935px) {
+    .container{
+        width: 100%;
+        margin: 0;
+    }
+
+}
+
+
+@media only screen and (max-width: 769px) {
+    .header-items{
+        display:none;
+        
+        
+    }
+
+    
+    div.harmburger-menu{
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        top: 10px;
+        right: 30px;
+    }
+ 
+    div.top-section h1{
+        font-size: 40px;
+       }
+       div.logo h1{
+        font-size: 20px;
+      }
+    .col60{
+        width: 100%;
+         margin-left: 15px;
+        text-align: left;
+         font-size: 18px;
+         
+        align-items: center;
+    
+    }
+
+    .col60 p{
+        display: block;
+        padding-left: 30px;
+        padding-top: 15x;
+        font-size: 18px;
+    }
+    .col60 button{
+        margin-left: 30px;
+        font-size: 18px;
+    }
+div.text-with-verticle-line{
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+div.text-with-verticle-line h1{
+    font-size: 26px;
+}
+
+
+    .col40{
+        width: 92%;
+        display: block;
+        
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+
+        .col40 img{
+            width: 100%;
+            margin-left: 0px;
+            }
+            div.icons{
+                
+                margin-top: 25px;
+                margin-right: 10px;
+            
+            }
+    }
+
+
+    @media only screen and (max-width: 600px) {
+        div.top-section{
+            height: 300px;
+        }
+         div.top-section h1{
+        font-size: 30px;
+       }
+
+
+       
+       div.logo h1{
+        font-size: 20px;
+       }
+       div.float-section{
+        width: 370px;
+        margin-left: -185px;
+       }
+
+
+       div.float-section p{
+       font-size: 10px;
+       padding-left: 30px;
+       }
+
+
+       div.info{width: 100%;
+    display: flex;
+flex-direction: column;}
+       div.left{
+        display: block;
+        width: 100%;
+        margin-right: 10px;
+       }
+
+
+       div.right{
+        margin-left: 30px;
+       }
+    }
+
+
+
+    @media only screen and (max-width: 420px){
+        div.links h1{
+            font-size: 14px;
+        }
+        div.icons{
+            font-size: 14px;
+            margin-top:0px
+        }
+    }
